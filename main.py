@@ -207,7 +207,6 @@ print([angle/math.pi*180 for angle in angles])
 
 all_points = create_points(angles, 0.5, 0.5)
 display(all_points)
-
 place_blocks(True)
 
 # Vertical
@@ -222,7 +221,7 @@ print([angle/math.pi*180 for angle in angles])
 
 all_points = create_points(angles, 0.5, 0.5 + PLAYER_EYE_LVL, AVR_CREAKING_EYE_LVL, -1)
 display(all_points)
+place_blocks(True)
 
 
-place_blocks(False)
 save_schematic()
