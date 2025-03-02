@@ -219,7 +219,7 @@ for i in range(0, resolution[1] - 1):
 
 print([angle/math.pi*180 for angle in angles])
 
-all_points = create_points(angles, 0.5, 0.5 + PLAYER_EYE_LVL, AVR_CREAKING_EYE_LVL, -1)
+all_points = create_points(angles, 0.5, 0.5 + PLAYER_EYE_LVL, 0.5 + AVR_CREAKING_EYE_LVL, -1)
 display(all_points)
 place_blocks(True)
 
